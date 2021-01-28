@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Nocturne',
-  description: 'This is Kit Randels blog',
+  title: 'Kit Randel',
+  description: 'blog',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -39,5 +39,8 @@ module.exports = {
         },
       ],
     },
+    sitemap: {
+      hostname: "http://blog.nocturne.nz"
+    }
   },
 }
