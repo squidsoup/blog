@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Kit Randel',
+  title: 'Kit֍Randel',
   description: 'blog',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
@@ -31,6 +31,10 @@ module.exports = {
           type: 'github',
           link: 'https://github.com/squidsoup',
         },
+        {
+          type: 'instagram',
+          link: 'https://www.instagram.com/bayardrandel/',
+        },
       ],
       copyright: [
         {
@@ -39,8 +43,10 @@ module.exports = {
         },
       ],
     },
+    smoothScroll: true,
     sitemap: {
       hostname: "http://blog.nocturne.nz"
-    }
+    },
+    endpoint: "https://nocturne.us7.list-manage.com/subscribe/post?u=41a63131d0c3c27cc02ab0a00&amp;id=ddf33fea94"
   },
 }
