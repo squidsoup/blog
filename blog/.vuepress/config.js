@@ -47,6 +47,8 @@ module.exports = {
     sitemap: {
       hostname: "http://blog.nocturne.nz"
     },
-    endpoint: "https://nocturne.us7.list-manage.com/subscribe/post?u=41a63131d0c3c27cc02ab0a00&amp;id=ddf33fea94"
+    newsletter: {
+     endpoint: "https://nocturne.us7.list-manage.com/subscribe/post?u=41a63131d0c3c27cc02ab0a00&amp;id=ddf33fea94"
+   },
   },
 }
