@@ -7,3 +7,5 @@ In the past I worked at Canonical, where I managed the team responsible for the 
 I occasionally write music as [Lawnbird](https://lawnbird.bandcamp.com/).
 
 ![me](./images/dreamy-kit.jpeg)
+
+_This site built with [VuePress](https://vuepress.vuejs.org/)._
